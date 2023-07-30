@@ -1,0 +1,31 @@
+.recommend{
+    padding:2rem 0;
+
+
+}
+.fuck{
+    text-align: center;
+}
+.packages{
+    display:flex;
+    justify-content: center;
+    margin:2rem 0;
+
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    width:max-content;
+
+
+li{
+    padding:1rem 2rem;
+    border-bottom: 0.1rem solid black;
+
+
+.active{
+   
+    border-bottom: 0.4rem solid  blueviolet;
+}
+}
+}

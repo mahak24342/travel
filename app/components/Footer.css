@@ -1,0 +1,49 @@
+.fu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d0d8ff;
+    padding: 2.5rem;
+border-radius: 0.5rem;
+}
+.fu span{
+    padding-top: 13px;
+    
+}
+.links{
+    display: flex;
+    list-style-type: none;
+gap:2rem;
+}
+#g1{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        color:#0a06f6;
+    }
+}
+.social_links{
+    display: flex;
+    list-style-type: none;
+gap:2rem;
+}
+.social_links li{
+    font-size: 25px;
+    &:hover{
+        color:#0a06f6;
+    } 
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+.fu{
+    flex-direction: column;
+    gap:2rem;
+}
+.links{
+    flex-direction: column;
+}
+.social_links{
+    flex-direction: row;
+}
+
+
+}
